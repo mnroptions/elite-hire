@@ -49,22 +49,22 @@ export function Header() {
 							</div>
 							<div className='hidden group-hover:block absolute  left-32'>
 								<ul className='bg-white py-5 px-10 text-nowrap grid gap-4 hover:cursor-pointer'>
-									<li className='hover:text-blue-800 '>
+									<li className='hover:text-brand-700 '>
 										<a href=''>Developers</a>
 									</li>
-									<li className='hover:text-blue-800'>
+									<li className='hover:text-brand-700'>
 										<a href=''></a>Designers
 									</li>
-									<li className='hover:text-blue-800'>
+									<li className='hover:text-brand-700'>
 										<a href=''></a>Marketing Experts
 									</li>
-									<li className='hover:text-blue-800'>
+									<li className='hover:text-brand-700'>
 										<a href=''></a>Project Mangers
 									</li>
-									<li className='hover:text-blue-800'>
+									<li className='hover:text-brand-700'>
 										<a href=''></a>Product Managers
 									</li>
-									<li className='hover:text-blue-800'>
+									<li className='hover:text-brand-700'>
 										<a href=''></a>Finance Experts
 									</li>
 								</ul>
@@ -118,7 +118,7 @@ export function Header() {
 							<ul className='flex gap-4 px-4 hover:cursor-pointer '>
 								<li
 									key={1}
-									className={`py-5 border-opacity-0 hover:border-opacity-100 border-b-2 border-blue-800 ${
+									className={`py-5 border-opacity-0 hover:border-opacity-100 border-b-2 border-brand-700 ${
 										activeIndex !== null && activeIndex !== 1
 											? 'opacity-50'
 											: ''
@@ -136,7 +136,7 @@ export function Header() {
 									}`}
 									onMouseEnter={() => setActiveIndex(2)}
 									onMouseLeave={() => setActiveIndex(null)}>
-									<div className='py-5 border-opacity-0 hover:border-opacity-100 border-b-2 border-blue-800'>
+									<div className='py-5 border-opacity-0 hover:border-opacity-100 border-b-2 border-brand-700'>
 										Hire Talent
 										<FontAwesomeIcon
 											icon={faArrowDown}
@@ -146,22 +146,22 @@ export function Header() {
 									</div>
 									<div className='hidden group-hover:block'>
 										<ul className='bg-white py-5 px-10 absolute top-16 left-0 text-nowrap grid gap-4 hover:cursor-pointer'>
-											<li className='hover:text-blue-800 '>
+											<li className='hover:text-brand-700 '>
 												<a href=''>Developers</a>
 											</li>
-											<li className='hover:text-blue-800'>
+											<li className='hover:text-brand-700'>
 												<a href=''></a>Designers
 											</li>
-											<li className='hover:text-blue-800'>
+											<li className='hover:text-brand-700'>
 												<a href=''></a>Marketing Experts
 											</li>
-											<li className='hover:text-blue-800'>
+											<li className='hover:text-brand-700'>
 												<a href=''></a>Project Mangers
 											</li>
-											<li className='hover:text-blue-800'>
+											<li className='hover:text-brand-700'>
 												<a href=''></a>Product Managers
 											</li>
-											<li className='hover:text-blue-800'>
+											<li className='hover:text-brand-700'>
 												<a href=''></a>Finance Experts
 											</li>
 										</ul>
@@ -169,7 +169,7 @@ export function Header() {
 								</li>
 								<li
 									key={3}
-									className={`py-5 border-opacity-0 hover:border-opacity-100 border-b-2 border-blue-800  ${
+									className={`py-5 border-opacity-0 hover:border-opacity-100 border-b-2 border-brand-700  ${
 										activeIndex !== null && activeIndex !== 3
 											? 'opacity-50'
 											: ''
@@ -180,7 +180,7 @@ export function Header() {
 								</li>
 								<li
 									key={4}
-									className={`py-5 border-opacity-0 hover:border-opacity-100 border-b-2 border-blue-800  ${
+									className={`py-5 border-opacity-0 hover:border-opacity-100 border-b-2 border-brand-700  ${
 										activeIndex !== null && activeIndex !== 4
 											? 'opacity-50'
 											: ''
@@ -191,7 +191,7 @@ export function Header() {
 								</li>
 								<li
 									key={5}
-									className={`py-5 border-opacity-0 hover:border-opacity-100 border-b-2 border-blue-800  ${
+									className={`py-5 border-opacity-0 hover:border-opacity-100 border-b-2 border-brand-700  ${
 										activeIndex !== null && activeIndex !== 5
 											? 'opacity-50'
 											: ''
@@ -202,7 +202,7 @@ export function Header() {
 								</li>
 								<li
 									key={6}
-									className={`py-5 border-opacity-0 hover:border-opacity-100 border-b-2 border-blue-800  ${
+									className={`py-5 border-opacity-0 hover:border-opacity-100 border-b-2 border-brand-700  ${
 										activeIndex !== null && activeIndex !== 6
 											? 'opacity-50'
 											: ''
@@ -218,21 +218,21 @@ export function Header() {
 					<div className=' hidden sm:hidden md:hidden lg:block 2xl:block'>
 						<a
 							href=''
-							className='py-5 hover:text-blue-500'>
+							className='py-5 hover:text-brand-600'>
 							Apply as a Freelance
 						</a>
 
 						<span className='px-3 py-3'>
 							<a
 								href=''
-								className='bg-green-400 py-2 px-4 rounded-md text-white hover:bg-green-300'>
+								className='bg-accent-500 py-2 px-4 rounded-md text-white hover:bg-accent-400'>
 								Hire Top Talent
 							</a>
 						</span>
 
 						<a
 							href=''
-							className='px-3 py-5 hover:text-blue-500'>
+							className='px-3 py-5 hover:text-brand-600'>
 							Log In
 						</a>
 					</div>

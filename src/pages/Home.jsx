@@ -14,6 +14,7 @@ import ReadyToGetStarted from "../components/ReadyToGetStarted";
 import TopTalent from "../components/TopTalent";
 import Footer from "../layouts/Footer";
 import { Header } from "../layouts/Header";
+import MarketplaceMatchmaking from "../components/MarketplaceMatchmaking";
 
 export const Home = () => {
   return (
@@ -21,6 +22,7 @@ export const Home = () => {
      
         <Header />
         <HireTheTop />
+        <MarketplaceMatchmaking />
         <CertificateSlider />
         <ImagesSlider />
         <Developer />

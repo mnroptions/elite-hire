@@ -2,3 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: radial-gradient(circle at top left, #f1f8ff 0%, #f8fbff 45%, #f9f5ff 100%);
+  color: #0f172a;
+}

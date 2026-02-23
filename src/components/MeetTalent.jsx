@@ -1,7 +1,7 @@
 import person1 from '../assets/img/image1.jpg';
 import shopify from '../assets/img/shopify.svg';
 import toptal from '../assets/img/Toptal.svg';
-import toptalLogo from '../assets/img/toptal-logo.svg';
+import toptalLogo from '../assets/img/Toptal.svg';
 function MeetTalent() {
 	return (
 		<>

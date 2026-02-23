@@ -4,12 +4,12 @@ import {
 	faLinkedinIn,
 	faTwitter,
 } from '@fortawesome/free-brands-svg-icons';
-import toptal from '../assets/img/toptal-logo.svg';
+import toptal from '../assets/img/Toptal.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 function Footer() {
 	return (
 		<>
-			<div className="bg-blue-900 p-11 flex flex-col justify-center items-center overflow-hidden">
+			<div className="bg-brand-900 p-11 flex flex-col justify-center items-center overflow-hidden">
 				<div className="max-w-[1200px] text-white ">
 					<div className=" text-center sm:text-left grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
 						<div>
